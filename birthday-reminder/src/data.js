@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     name: "Renuka Makode",
@@ -32,6 +32,8 @@ export default [
     name: "Dummy People",
     age: 16,
     image:
-      "https://www.creatorshala.com/public/frontend/imgs/userProfile/45221_202006010225.jpg",
+      "https://simg.nicepng.com/png/small/32-328642_user-avatar-super-mario-avatar.png",
   },
 ];
+
+export default data;
