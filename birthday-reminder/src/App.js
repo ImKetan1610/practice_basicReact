@@ -1,18 +1,17 @@
-import React, {useState} from 'react';
-import data from './data';
+import React, { useState } from "react";
+import data from "./data";
 
-import './App.css';
-
+import "./App.css";
 
 function App() {
-  let [people, setPeople] = useState(data)
+  let [people, setPeople] = useState(data);
   return (
     <main>
-      <section className='container'>
-        
+      <section className="container">
+        <h3>{people.length}</h3>
+        <button onClick={()=>setPeople([])}>Clear All</button>
       </section>
     </main>
-    
   );
 }
 
