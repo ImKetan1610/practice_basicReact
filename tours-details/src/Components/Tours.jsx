@@ -4,7 +4,7 @@ import Tour from "./Tour";
 const Tours = ({ tours, removeTours }) => {
   return (
     <section>
-      <div>Tours are here {tours.length}</div>
+      {/* <div>Tours are here {tours.length}</div> */}
       <div className="title">
         <h2>Our Tours</h2>
         <div className="underline"></div>
