@@ -14,4 +14,4 @@
 
 # View
 
-![Home Page](./readmeImages/home.PNG)
+![Home Page](./readmeImage/home.PNG)
