@@ -1,6 +1,6 @@
 # Live Site:
 
-[Live](prac-birthday-reminder.netlify.app).
+[Live](https://prac-birthday-reminder.netlify.app/).
 
 ## Language Used:
 
