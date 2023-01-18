@@ -17,6 +17,10 @@ const Review = () => {
       <h4 className="author">{name}</h4>
       <p className="job">{job}</p>
       <p className="info">{text}</p>
+      <div className="button-container">
+        <button className="prev-btn"></button>
+        <button className="next-btn"></button>
+      </div>
     </article>
   );
 };
