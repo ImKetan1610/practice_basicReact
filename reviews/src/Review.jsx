@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import People from "./data";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 const Review = () => {
   const [index, setIndex] = useState(0);
@@ -16,6 +16,7 @@ const Review = () => {
       </div>
       <h4 className="author">{name}</h4>
       <p className="job">{job}</p>
+      <p className="info">{text}</p>
     </article>
   );
 };
