@@ -7,6 +7,14 @@ const Review = () => {
   const [index, setIndex] = useState(0);
   const { name, job, image, text } = People[index];
 
+  const randonIndex = () => {
+    let randomNumber = Math.floor(Math.random() * People.length);
+    if (randomNumber === index) {
+      randomNumber = index + 1;
+    }
+    setIndex(checkIndex(randomNumber));
+  };
+
   const prevPerson = () => {
     setIndex((index) => {
       let newIndex = index - 1;
