@@ -18,9 +18,16 @@ const Review = () => {
       <p className="job">{job}</p>
       <p className="info">{text}</p>
       <div className="button-container">
-        <button className="prev-btn"></button>
-        <button className="next-btn"></button>
+        <button className="prev-btn">
+          <FaChevronLeft />
+        </button>
+        <button className="next-btn">
+          <FaChevronRight />
+        </button>
       </div>
+      <button className="random-btn">
+        Surprise Me
+      </button>
     </article>
   );
 };
