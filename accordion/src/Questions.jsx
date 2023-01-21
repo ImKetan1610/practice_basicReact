@@ -5,7 +5,6 @@ import { useState } from "react";
 const Questions = ({ title, info }) => {
   const [showinfo, setShowinfo] = useState(false);
   return (
-    <div>
       <article className="question">
         <header>
           <h4>{title}</h4>
@@ -20,7 +19,6 @@ const Questions = ({ title, info }) => {
         </header>
         {showinfo && <p>{info}</p>}
       </article>
-    </div>
   );
 };
 
