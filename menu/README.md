@@ -1,6 +1,6 @@
 # Live Site:
 
-[Live](https://accordian-react-prac.netlify.app/).
+[Live](https://menu-react-build.netlify.app/).
 
 ## Language Used:
 
