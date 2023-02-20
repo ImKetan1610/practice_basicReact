@@ -1,0 +1,10 @@
+.loading{
+    margin: 200px auto;
+    text-align: center;
+}
+.loading>img{
+    border: 1px solid silver;
+    width:500px;
+    border-radius: 5%;
+    box-shadow: rgb(222, 32, 111) 0px 20px 30px -10px;
+}
