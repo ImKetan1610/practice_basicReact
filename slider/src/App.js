@@ -54,7 +54,7 @@ function App() {
               <h4>{name}</h4>
               <p className="title">{title}</p>
               <p className="quote">{quote}</p>
-              <FaQuoteRight />
+              <FaQuoteRight className="icon" />
             </article>
           );
         })}
