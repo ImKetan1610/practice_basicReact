@@ -1,6 +1,5 @@
-import "./App.css";
 import React, { useState } from "react";
-import Values from 'values.js'
+import Values from "values.js";
 import SingleColor from "./SingleColor";
 
 function App() {
@@ -27,8 +26,8 @@ function App() {
             type="text"
             value={color}
             onChange={(e) => setColor(e.target.value)}
-            placeholder='#f15025'
-            className={`${error ? 'error' : null}`}
+            placeholder="#f15025"
+            className={`${error ? "error" : null}`}
           />
           <button className="btn" type="submit">
             Submit
@@ -36,7 +35,7 @@ function App() {
         </form>
       </section>
       <section className="colors">
-      {list.map((color, index) => {
+        {list.map((color, index) => {
           return (
             <SingleColor
               key={index}
@@ -44,7 +43,7 @@ function App() {
               index={index}
               hexColor={color.hex}
             />
-          )
+          );
         })}
       </section>
     </>
