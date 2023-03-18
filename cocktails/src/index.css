@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("./Assets/l1.jpg"), url("./Assets/l2.jpg"),
+    url("./Assets/l3.jpg"), url("./Assets/l4.jpg"); */
+  /* background-repeat: no-repeat; */
 }
 
 code {
@@ -157,14 +160,15 @@ About
 .about-section {
   width: 40%;
   margin: auto;
-  margin-top:10rem;
+  margin-top: 10rem;
   padding: 0 1rem;
   box-shadow: rgba(151, 238, 10, 0.96) 3.95px 3.95px 5.6px;
-  border-radius:0.25rem;
-  border:0.1px solid rgba(151, 242, 6, 0.968);
+  border-radius: 0.25rem;
+  border: 0.1px solid rgba(151, 242, 6, 0.968);
 }
-.about-section h1,h3{
-  color:Olive
+.about-section h1,
+h3 {
+  color: Olive;
 }
 .about-section h3 {
   text-align: center;
@@ -174,7 +178,7 @@ About
   letter-spacing: 2px;
   line-height: 2rem;
   font-weight: 400;
-  color:#476a2e
+  color: #476a2e;
 }
 
 /*
