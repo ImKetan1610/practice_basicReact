@@ -1,11 +1,12 @@
 import React from "react";
 import MenuListItem from "../MenuListItem/MenuListItem";
 import s from "./style.module.css";
+import { DIFFICULTY } from "./constant";
 
 const MenuList = (props) => {
   return (
     <div className={s.container}>
-      <MenuListItem
+      {/* <MenuListItem
         isSelected={props.difficulty === "Low"}
         onClick={props.onItemClick}
         difficulty="Low"
@@ -24,7 +25,14 @@ const MenuList = (props) => {
         isSelected={props.difficulty === "Extreme"}
         onClick={props.onItemClick}
         difficulty="Extreme"
-      />
+      /> */}
+      {DIFFICULTY.map((difficulty) => (
+        <MenuListItem
+          isSelected={props.difficulty === difficulty}
+          onClick={props.onItemClick}
+          difficulty={difficulty}
+        />
+      ))}
     </div>
   );
 };
